@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <meta name="keywords" content="Spotify, Spotify Web, Digital Music, Video Player" />
+    <meta name="author" content="Laura Bigoni">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css'
+        integrity='sha512-4wfcoXlib1Aq0mUtsLLM74SZtmB73VHTafZAvxIp/Wk9u1PpIsrfmTvK0+yKetghCL8SHlZbMyEcV8Z21v42UQ=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify Web</title>
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <!-- sidebar navigation -->
+            <nav id="sidebar-menu">
+                <!-- Spotify logo -->
+                <div class="spotify-logo">
+                    <img class="logo" src="img/logo.svg" alt="spotify logo">
+                    <img class="logo-small" src="img/logo-small.svg" alt="Spotify logo small">
+                </div>
+                <!-- Menu navigation icon and links -->
+                <div class="navigation">
+                    <ul>
+                        <li class="active"><a href="#"><img src="img/home.svg" alt="home"> <span>Home</span></a></li>
+                        <li><a href="#"><img class="greyscale" src="img/search.svg" alt="search"> <span
+                                    class="text-grey">Cerca</span></a>
+                        </li>
+                        <li><a href="#"><img class="greyscale" src="img/libreria.svg" alt="library"> <span
+                                    class="text-grey">La tua
+                                    libreria</span></a></li>
+                    </ul>
+                </div>
+                <!-- Playlist section / create new and already created list-->
+                <div class="add-playlist">
+                    <ul>
+                        <li class="title">playlist</li>
+                        <li><a href="#"><i class="fas fa-plus"></i><span class="text-grey"> create playlist</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="playlist">
+                    <ul class="scroll-playlist">
+                        <li><img src="./Icons/heart.png" alt=""><span><a class="text-grey" href="#">  Liked Songs</a></li></span>
+                        <li><img src="./Icons/hotspot.png" alt=""><span><a class="text-grey" href="#">  Your Episodes</a></li></span>
+
+                    </ul>
+                </div>
+                <div class="flex-text">
+                    <ul>
+                        <li>FAV</li><br>
+
+                        <li>Daily Mix1</li><br>
+
+                        <li>Discover Weekly</li><br>
+
+                        <li>Malayalam</li><br>
+
+                        <li>Dance/ElectronixMix</li><br>
+                        
+                        <li>EDM/Popular</li>
+                    </ul>
+                </div>
+                <!-- install app and user administration -->
+                <div class="administration">
+                    <ul>
+                        <li><a href="#"><img class="download greyscale" src="./Icons/download.png" alt="download"><span
+                                    class="text-grey">Installa app</span>
+                            </a>
+                                
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- Main content of the page -->
+            <div id="main-content">
+                <!-- Header -->
+                <header>
+                    <!-- this scroll with page -->
+                    <div id="top-menu">
+                        <!-- Upgrade button -->
+                        <a href="#">LogIn</a>
+                    </div>
+                </header>
+                <!-- main content header -->
+                <nav id="content-menu">
+                    <!-- Highlighted / Podcast / Charts / Discover -->
+                    <ul>
+
+                        <div>Good morning</div>
+
+
+                    </ul>
+                </nav>
+                <!-- Recently played -->
+                <div class="recently-played">
+                    <h2>Shows you might like</h2>
+                    <section class="d-flex-self">
+                        <div class="album">
+                            <div class="card"><img src="./Icons/imgs/Rectangle 21.png" alt="metal lifting"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Weekly Motivation</h3>
+                                <span>Ben Ina Scott</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/imgs/Rectangle 22.png" alt="Stranger Things"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>MEDITATION SELF</h3>
+                                <span>Ibn Hussain Aleen</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/imgs/Rectangle 23.png" alt="a quiet place"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Words beyond act...</h3>
+                                <span>Samuel Scott</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/imgs/Rectangle 16.png" alt="Split"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>The alexa Show</h3>
+                                <span>Adriana Tom</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="d-flex-self">
+                        <div class="album">
+                            <div class="card"><img src="./Icons/./imgs/Rectangle 16.png" alt="a cure for wellness"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>A cure for wellness</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/./imgs/Rectangle 16.png" alt="a cure for wellness"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>A cure for wellness</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/./imgs/Rectangle 16.png" alt="a cure for wellness"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>A cure for wellness</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="./Icons/./imgs/Rectangle 16.png" alt="a cure for wellness"><i
+                                    class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>A cure for wellness</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Spotify music controls -->
+        <div id="controls">
+            <!-- Preview album / artist name / heart,folder icons -->
+            <div class="now-playing">
+                <img src="./Icons/./imgs/playing-img.png" alt="sinister track">
+                <span class="artist-name">DreamingOn<br><span class="text-grey track-info">NEFFEX<br></span></span>
+            </div>
+            <div class="like-folder">
+                <i class="text-grey far fa-heart"></i>
+                <i class="text-grey far fa-folder"></i>
+            </div>
+            <!-- Player controls -->
+            <div class="track-controls">
+                <div class="music-controls">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo-alt"></i>
+                </div>
+                <div class="progress-controls">
+                    <span>0:25</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar overlay">
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+                    <span>4:32</span>
+                </div>
+            </div>
+            <!-- Queued tracks / devices / volume -->
+            <div class="devices">
+                <div class="menage-devices">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="volume-bar">
+                        <div class="volume-bar overlay">
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
